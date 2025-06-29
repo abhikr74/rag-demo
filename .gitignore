@@ -1,0 +1,28 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Conda environment files
+*.conda
+*.env
+*.venv
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore FAISS index or data if needed
+data/faiss_index/
+
+# Your specific ignored files
+/docs/assets/
+rag-presentation-slides.md
+
+# demo files
+demo_config.md
+demo_script.md

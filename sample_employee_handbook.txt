@@ -1,0 +1,77 @@
+
+# ACME CORPORATION EMPLOYEE HANDBOOK
+
+## Table of Contents
+1. Welcome to ACME Corporation
+2. Employment Policies
+3. Benefits and Compensation
+4. Work Environment and Policies
+5. IT and Security Policies
+6. Leave and Time Off
+7. Performance and Development
+
+## 1. Welcome to ACME Corporation
+
+Welcome to ACME Corporation! We are excited to have you join our team. This handbook contains important information about your employment, our policies, procedures, and benefits.
+
+## 2. Employment Policies
+
+### 2.1 Equal Opportunity Employment
+ACME Corporation is committed to providing equal employment opportunities to all employees and applicants regardless of race, color, religion, gender, sexual orientation, national origin, age, disability, or veteran status.
+
+### 2.2 Remote Work Policy
+Employees may work remotely up to 3 days per week with manager approval. Remote work arrangements must be documented and reviewed quarterly. All remote workers must maintain secure internet connections and follow IT security protocols.
+
+### 2.3 Working Hours
+Standard business hours are 9:00 AM to 5:00 PM, Monday through Friday. Flexible working arrangements may be available depending on role requirements and business needs.
+
+## 3. Benefits and Compensation
+
+### 3.1 Health Insurance
+ACME provides comprehensive health insurance coverage including medical, dental, and vision. Coverage begins on the first day of the month following 30 days of employment.
+
+### 3.2 Retirement Plan
+We offer a 401(k) retirement plan with company matching up to 4% of your salary. You are eligible to participate after 90 days of employment.
+
+### 3.3 Professional Development
+Each employee receives $2,000 annually for professional development activities including conferences, training courses, and certifications.
+
+## 4. Work Environment and Policies
+
+### 4.1 Code of Conduct
+All employees are expected to maintain high standards of professional behavior, treat colleagues with respect, and act with integrity in all business dealings.
+
+### 4.2 Safety Procedures
+In case of emergency, immediately contact security at ext. 911 or dial 911 for external emergencies. Fire exits are located on each floor and evacuation procedures are posted near all exits.
+
+## 5. IT and Security Policies
+
+### 5.1 Password Policy
+Passwords must be at least 12 characters long, contain uppercase and lowercase letters, numbers, and special characters. Passwords must be changed every 90 days.
+
+### 5.2 Data Security
+All confidential company data must be stored on approved systems. Do not store sensitive information on personal devices or cloud services not approved by IT.
+
+### 5.3 IT Support
+For technical support, contact the IT helpdesk at it-support@acme.com or call ext. 4357. Support hours are 8:00 AM to 6:00 PM, Monday through Friday.
+
+## 6. Leave and Time Off
+
+### 6.1 Vacation Policy
+Full-time employees earn 15 days of vacation in their first year, increasing to 20 days after 5 years of service. Vacation requests must be submitted at least 2 weeks in advance.
+
+### 6.2 Sick Leave
+Employees accrue 1 hour of sick leave for every 30 hours worked, up to a maximum of 40 hours per year. Sick leave can be used for personal illness or to care for family members.
+
+### 6.3 Personal Days
+All employees receive 3 personal days per year that can be used for any purpose. Personal days do not carry over to the next year.
+
+## 7. Performance and Development
+
+### 7.1 Performance Reviews
+Annual performance reviews are conducted each year on your hire date anniversary. Mid-year check-ins are scheduled to provide ongoing feedback and support.
+
+### 7.2 Career Development
+We encourage employees to discuss career goals with their managers. Internal job postings are shared company-wide before external recruitment begins.
+
+For questions about this handbook, please contact HR at hr@acme.com or ext. 2468.

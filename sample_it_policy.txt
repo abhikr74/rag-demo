@@ -1,0 +1,117 @@
+
+# ACME CORPORATION IT SECURITY POLICY
+
+## Document Control
+- Version: 2.1
+- Effective Date: January 1, 2024
+- Review Date: January 1, 2025
+- Owner: IT Security Team
+
+## 1. Introduction
+
+This document outlines the IT security policies and procedures that all ACME Corporation employees must follow to protect company information systems and data.
+
+## 2. Access Control
+
+### 2.1 User Account Management
+- All user accounts must be approved by department managers
+- Accounts for terminated employees must be disabled within 24 hours
+- Regular access reviews are conducted quarterly
+
+### 2.2 Password Requirements
+- Minimum 12 characters in length
+- Must include uppercase, lowercase, numbers, and special characters
+- Cannot reuse last 12 passwords
+- Must be changed every 90 days
+- Multi-factor authentication required for all systems
+
+### 2.3 Password Reset Procedure
+If you forget your password:
+1. Go to the company intranet password reset page
+2. Enter your employee ID and email address
+3. Check your email for reset instructions
+4. Follow the link and create a new password
+5. If issues persist, contact IT support at ext. 4357
+
+## 3. Data Classification and Handling
+
+### 3.1 Data Classification Levels
+- **Public**: Information that can be freely shared
+- **Internal**: Information for internal use only
+- **Confidential**: Sensitive business information
+- **Restricted**: Highly sensitive information requiring special handling
+
+### 3.2 Data Storage Requirements
+- All company data must be stored on approved systems
+- Confidential data must be encrypted at rest and in transit
+- Regular backups are performed nightly
+- Data retention follows company policy (7 years for financial data)
+
+## 4. Incident Response
+
+### 4.1 Security Incident Reporting
+If you suspect a security incident:
+1. Immediately report to IT Security at security@acme.com
+2. Do not attempt to investigate or resolve yourself
+3. Preserve evidence by not modifying affected systems
+4. Document what you observed
+
+### 4.2 Incident Response Team
+- IT Security Manager: John Smith (ext. 4400)
+- Network Administrator: Sarah Johnson (ext. 4401)
+- System Administrator: Mike Brown (ext. 4402)
+
+## 5. Acceptable Use
+
+### 5.1 Computer and Network Usage
+- Company systems are for business use primarily
+- Limited personal use is permitted during breaks
+- Prohibited activities include gambling, illegal downloads, and accessing inappropriate content
+- All usage is monitored and logged
+
+### 5.2 Email and Communication
+- Professional communication standards apply
+- Do not forward chain letters or spam
+- Be cautious with attachments from unknown sources
+- Report suspicious emails to security@acme.com
+
+## 6. Mobile Device Policy
+
+### 6.1 Company-Provided Devices
+- Must be protected with device passcode/biometric lock
+- Automatic screen lock after 5 minutes of inactivity
+- Company has right to remote wipe if device is lost/stolen
+
+### 6.2 Personal Devices (BYOD)
+- Must install company security app before accessing company email
+- Regular security scans required
+- Separate work profile for company data
+
+## 7. Remote Work Security
+
+### 7.1 Home Network Requirements
+- Secure Wi-Fi with WPA3 encryption
+- Regular router firmware updates
+- No shared/public Wi-Fi for company work
+
+### 7.2 VPN Usage
+- Always connect through company VPN when working remotely
+- VPN must be active for all company system access
+- Report VPN connection issues immediately
+
+## 8. Training and Awareness
+
+### 8.1 Security Training
+- Annual security awareness training mandatory for all employees
+- Phishing simulation tests conducted quarterly
+- Additional training required for high-risk roles
+
+### 8.2 Policy Updates
+- Employees notified of policy changes via email
+- Annual acknowledgment of policy understanding required
+- Questions should be directed to security@acme.com
+
+For technical assistance or security concerns, contact:
+- IT Helpdesk: ext. 4357 or it-support@acme.com
+- Security Team: ext. 4400 or security@acme.com
+- Emergency After Hours: 1-800-555-HELP

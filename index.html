@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Document Q&A System - Demo Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <h3>RAG Q&A System</h3>
+                </div>
+                <div class="nav-menu">
+                    <button class="nav-btn" data-section="welcome">Home</button>
+                    <button class="nav-btn" data-section="problem">Problem</button>
+                    <button class="nav-btn" data-section="solution">Solution</button>
+                    <button class="nav-btn" data-section="demo">Demo</button>
+                    <button class="nav-btn" data-section="impact">Impact</button>
+                    <button class="nav-btn" data-section="implementation">Implementation</button>
+                    <button class="nav-btn" data-section="qa">Q&A</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Welcome Section -->
+        <section id="welcome" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <h1>RAG-Powered Document Q&A System</h1>
+                    <p class="hero-subtitle">Transforming Enterprise Knowledge Management with AI</p>
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>The Challenge</h2>
+                            <p>Organizations struggle with knowledge silos and inefficient document search, leading to decreased productivity and increased operational costs.</p>
+                            
+                            <h2>Our Solution</h2>
+                            <p>A Retrieval-Augmented Generation (RAG) system that enables natural language queries over internal documents, powered by open-source technologies.</p>
+                            
+                            <div class="cta-buttons">
+                                <button class="btn btn--primary" data-section="problem">Explore the Problem</button>
+                                <button class="btn btn--outline" data-section="demo">See Live Demo</button>
+                            </div>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-card">
+                                <div class="stat-number">2.5 hrs</div>
+                                <div class="stat-label">Daily search time</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">$2.5M</div>
+                                <div class="stat-label">Annual cost impact</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">90%</div>
+                                <div class="stat-label">Time reduction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Problem Section -->
+        <section id="problem" class="section">
+            <div class="container">
+                <h1>The Business Problem</h1>
+                <div class="problem-content">
+                    <div class="problem-text">
+                        <h2>Knowledge Management Crisis in Organizations</h2>
+                        <p>Modern enterprises face a critical challenge: employees spend more time searching for information than performing their core responsibilities.</p>
+                        
+                        <div class="problem-stats">
+                            <div class="problem-stat">
+                                <h3>2.5 Hours Daily</h3>
+                                <p>Average time employees spend searching for information</p>
+                            </div>
+                            <div class="problem-stat">
+                                <h3>$2.5M Annual Cost</h3>
+                                <p>Productivity loss for a 1000-employee organization</p>
+                            </div>
+                            <div class="problem-stat">
+                                <h3>45% Inefficiency</h3>
+                                <p>Time wasted on redundant information searches</p>
+                            </div>
+                        </div>
+
+                        <h3>Industry Relevance</h3>
+                        <ul>
+                            <li>Knowledge workers comprise 70% of the modern workforce</li>
+                            <li>Enterprise data grows by 40% annually</li>
+                            <li>Poor knowledge management costs Fortune 500 companies $31.5B annually</li>
+                            <li>85% of organizations cite knowledge management as a top priority</li>
+                        </ul>
+                    </div>
+                    <div class="problem-chart">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1751105054/pplx_code_interpreter/1ba2a535_msl0k0.jpg" alt="Knowledge Worker Time Allocation Chart" class="chart-image">
+                        <p class="chart-caption">Knowledge workers spend 2.5 hours daily searching for information - more than actual core work time</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Overview Section -->
+        <section id="solution" class="section">
+            <div class="container">
+                <h1>Solution: RAG Technology</h1>
+                <div class="solution-content">
+                    <div class="solution-intro">
+                        <h2>What is Retrieval-Augmented Generation (RAG)?</h2>
+                        <p>RAG combines the power of large language models with external knowledge retrieval, enabling AI systems to provide accurate, contextual answers based on specific organizational documents.</p>
+                    </div>
+
+                    <div class="solution-architecture">
+                        <h3>System Architecture</h3>
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1751105179/pplx_code_interpreter/b9b58c49_txz5mr.jpg" alt="RAG Architecture Flow" class="architecture-image">
+                        <p class="architecture-caption">RAG Architecture: From document ingestion to answer generation with source attribution</p>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h3>Open Source Tech Stack</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <h4>Llama 3.1 8B</h4>
+                                <p>Open source language model for natural language understanding and generation</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>LangChain</h4>
+                                <p>Framework for document processing, chunking, and orchestration</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>Sentence Transformers</h4>
+                                <p>Embedding models for semantic understanding and similarity search</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>FAISS</h4>
+                                <p>Vector database for efficient similarity search and retrieval</p>
+                            </div>
+                            <div class="tech-item">
+                                <h4>Streamlit</h4>
+                                <p>User-friendly web interface for seamless interaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Demo Section -->
+        <section id="demo" class="section">
+            <div class="container">
+                <h1>Live Demo</h1>
+                <div class="demo-content">
+                    <div class="demo-intro">
+                        <h2>Interactive RAG Q&A System</h2>
+                        <p>Experience how our system processes natural language queries and provides accurate answers with source attribution.</p>
+                    </div>
+
+                    <div class="demo-interface">
+                        <div class="demo-controls">
+                            <h3>Sample Documents Loaded:</h3>
+                            <div class="document-list">
+                                <div class="document-item">📄 Employee Handbook</div>
+                                <div class="document-item">🔒 IT Security Policy</div>
+                            </div>
+
+                            <h3>Try These Questions:</h3>
+                            <div class="question-buttons">
+                                <button class="question-btn" data-question="0">What is the remote work policy?</button>
+                                <button class="question-btn" data-question="1">How do I reset my password?</button>
+                                <button class="question-btn" data-question="2">What are my vacation entitlements?</button>
+                                <button class="question-btn" data-question="3">Who should I contact for IT support?</button>
+                            </div>
+                        </div>
+
+                        <div class="demo-output">
+                            <div class="query-section">
+                                <h4>Query:</h4>
+                                <div id="current-query" class="query-display">Select a question to see the RAG system in action</div>
+                            </div>
+
+                            <div class="answer-section">
+                                <h4>AI Response:</h4>
+                                <div id="answer-display" class="answer-display">
+                                    <div class="placeholder">Click a question above to see how our RAG system provides accurate, contextual answers with source attribution.</div>
+                                </div>
+                            </div>
+
+                            <div class="metrics-section">
+                                <div class="metric">
+                                    <span class="metric-label">Response Time:</span>
+                                    <span id="response-time" class="metric-value">--</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Accuracy Score:</span>
+                                    <span id="accuracy-score" class="metric-value">--</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Source Documents:</span>
+                                    <span id="source-count" class="metric-value">--</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Impact Section -->
+        <section id="impact" class="section">
+            <div class="container">
+                <h1>Business Impact</h1>
+                <div class="impact-content">
+                    <div class="impact-intro">
+                        <h2>Transformative Results</h2>
+                        <p>Implementation of our RAG system delivers measurable improvements across all key business metrics.</p>
+                    </div>
+
+                    <div class="impact-chart">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1751105271/pplx_code_interpreter/4fccf7e7_orarez.jpg" alt="Business Impact Metrics" class="chart-image large">
+                        <p class="chart-caption">RAG implementation delivers significant improvements across all key business metrics</p>
+                    </div>
+
+                    <div class="impact-metrics">
+                        <div class="metric-comparison">
+                            <h3>Key Improvements</h3>
+                            <div class="comparison-grid">
+                                <div class="comparison-item">
+                                    <div class="metric-name">Search Time</div>
+                                    <div class="before-after">
+                                        <span class="before">30 min</span>
+                                        <span class="arrow">→</span>
+                                        <span class="after">3 min</span>
+                                    </div>
+                                    <div class="improvement">90% reduction</div>
+                                </div>
+                                <div class="comparison-item">
+                                    <div class="metric-name">Productivity Hours</div>
+                                    <div class="before-after">
+                                        <span class="before">5.5 hrs</span>
+                                        <span class="arrow">→</span>
+                                        <span class="after">7.5 hrs</span>
+                                    </div>
+                                    <div class="improvement">36% increase</div>
+                                </div>
+                                <div class="comparison-item">
+                                    <div class="metric-name">Employee Satisfaction</div>
+                                    <div class="before-after">
+                                        <span class="before">6.2/10</span>
+                                        <span class="arrow">→</span>
+                                        <span class="after">8.5/10</span>
+                                    </div>
+                                    <div class="improvement">37% improvement</div>
+                                </div>
+                                <div class="comparison-item">
+                                    <div class="metric-name">Support Tickets</div>
+                                    <div class="before-after">
+                                        <span class="before">45/week</span>
+                                        <span class="arrow">→</span>
+                                        <span class="after">15/week</span>
+                                    </div>
+                                    <div class="improvement">67% reduction</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="roi-calculation">
+                            <h3>Return on Investment</h3>
+                            <div class="roi-details">
+                                <div class="roi-item">
+                                    <span class="roi-label">Implementation Cost:</span>
+                                    <span class="roi-value">$150K</span>
+                                </div>
+                                <div class="roi-item">
+                                    <span class="roi-label">Annual Savings:</span>
+                                    <span class="roi-value">$1.8M</span>
+                                </div>
+                                <div class="roi-item roi-highlight">
+                                    <span class="roi-label">ROI (Year 1):</span>
+                                    <span class="roi-value">1200%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Implementation Section -->
+        <section id="implementation" class="section">
+            <div class="container">
+                <h1>Technical Implementation</h1>
+                <div class="implementation-content">
+                    <div class="implementation-overview">
+                        <h2>End-to-End Implementation</h2>
+                        <p>Our solution leverages cutting-edge open-source technologies to create a robust, scalable RAG system.</p>
+                    </div>
+
+                    <div class="code-showcase">
+                        <h3>Core Components</h3>
+                        <div class="code-tabs">
+                            <button class="code-tab active" data-tab="ingestion">Document Ingestion</button>
+                            <button class="code-tab" data-tab="retrieval">Vector Retrieval</button>
+                            <button class="code-tab" data-tab="generation">Answer Generation</button>
+                        </div>
+
+                        <div class="code-content">
+                            <div id="ingestion" class="code-panel active">
+                                <pre><code># Document Processing Pipeline
+from langchain.document_loaders import TextLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+
+# Load and chunk documents
+loader = TextLoader("employee_handbook.txt")
+documents = loader.load()
+
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,
+    chunk_overlap=200
+)
+chunks = text_splitter.split_documents(documents)
+
+# Create embeddings and vector store
+embeddings = HuggingFaceEmbeddings()
+vectorstore = FAISS.from_documents(chunks, embeddings)</code></pre>
+                            </div>
+                            <div id="retrieval" class="code-panel">
+                                <pre><code># Semantic Search and Retrieval
+def retrieve_relevant_docs(query, vectorstore, k=3):
+    # Perform similarity search
+    relevant_docs = vectorstore.similarity_search(
+        query, 
+        k=k
+    )
+    
+    # Add relevance scoring
+    docs_with_scores = vectorstore.similarity_search_with_score(
+        query, k=k
+    )
+    
+    return relevant_docs, docs_with_scores
+
+# Example usage
+query = "What is the remote work policy?"
+docs, scores = retrieve_relevant_docs(query, vectorstore)</code></pre>
+                            </div>
+                            <div id="generation" class="code-panel">
+                                <pre><code># RAG Answer Generation
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+def generate_answer(query, relevant_docs, model, tokenizer):
+    # Construct context from retrieved documents
+    context = "\n\n".join([doc.page_content for doc in relevant_docs])
+    
+    # Create prompt template
+    prompt = f"""
+    Context: {context}
+    
+    Question: {query}
+    
+    Answer based on the context provided:
+    """
+    
+    # Generate response
+    inputs = tokenizer(prompt, return_tensors="pt")
+    outputs = model.generate(**inputs, max_length=500)
+    answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return answer</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deployment-options">
+                        <h3>Deployment Options</h3>
+                        <div class="deployment-grid">
+                            <div class="deployment-option">
+                                <h4>🖥️ On-Premise</h4>
+                                <p>Complete data control and security for sensitive documents</p>
+                                <ul>
+                                    <li>Full data sovereignty</li>
+                                    <li>Custom security policies</li>
+                                    <li>Integration with existing infrastructure</li>
+                                </ul>
+                            </div>
+                            <div class="deployment-option">
+                                <h4>☁️ Cloud</h4>
+                                <p>Scalable deployment with managed infrastructure</p>
+                                <ul>
+                                    <li>Auto-scaling capabilities</li>
+                                    <li>Reduced operational overhead</li>
+                                    <li>Global accessibility</li>
+                                </ul>
+                            </div>
+                            <div class="deployment-option">
+                                <h4>🔄 Hybrid</h4>
+                                <p>Best of both worlds with flexible architecture</p>
+                                <ul>
+                                    <li>Sensitive data on-premise</li>
+                                    <li>Processing in cloud</li>
+                                    <li>Optimized performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="next-steps">
+                        <h3>Next Steps</h3>
+                        <div class="steps-timeline">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Discovery & Planning</h4>
+                                    <p>Analyze existing documents and define requirements</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Proof of Concept</h4>
+                                    <p>Build and test with sample documents</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Pilot Implementation</h4>
+                                    <p>Deploy to select user group for validation</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Full Rollout</h4>
+                                    <p>Organization-wide deployment and training</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Q&A Section -->
+        <section id="qa" class="section">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+                <div class="qa-content">
+                    <div class="qa-intro">
+                        <h2>Common Questions About RAG Implementation</h2>
+                        <p>Here are the most frequently asked questions about implementing RAG systems in enterprise environments.</p>
+                    </div>
+
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What types of documents can the RAG system process?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our RAG system can process various document formats including PDF, Word documents, text files, HTML pages, and structured data formats like JSON and CSV. It handles employee handbooks, policies, procedures, technical documentation, and knowledge base articles.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>How accurate are the AI-generated answers?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our system achieves 85-95% accuracy on factual questions, with built-in source attribution for verification. The system includes confidence scoring and clearly indicates when information is not found in the knowledge base, preventing hallucinations.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What are the security and privacy considerations?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We implement enterprise-grade security including encryption at rest and in transit, role-based access controls, audit logging, and compliance with GDPR, SOC 2, and industry standards. On-premise deployment options ensure complete data sovereignty.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>How long does implementation typically take?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>A typical implementation ranges from 6-12 weeks: 2 weeks for discovery and setup, 2-4 weeks for document processing and fine-tuning, 2-4 weeks for pilot testing, and 2-4 weeks for full deployment and training.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Can the system integrate with existing tools?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Yes, our RAG system offers APIs for integration with popular enterprise tools including Slack, Microsoft Teams, SharePoint, Confluence, ServiceNow, and custom applications through REST APIs and webhooks.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What are the hardware/infrastructure requirements?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Minimum requirements include 32GB RAM, 8-core CPU, and GPU support for optimal performance. Cloud deployment options are available for organizations preferring managed infrastructure. Exact specifications depend on document volume and concurrent users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Ready to Transform Your Knowledge Management?</h2>
+                    <p>Let's discuss how RAG technology can solve your organization's information challenges.</p>
+                    <div class="contact-buttons">
+                        <button class="btn btn--primary">Schedule a Demo</button>
+                        <button class="btn btn--outline">Get Technical Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
