@@ -20,8 +20,8 @@ Thumbs.db
 data/faiss_index/
 
 # Your specific ignored files
-/docs/assets/
-rag-presentation-slides.md
+# /docs/assets/
+# rag-presentation-slides.md
 
 # demo files
 demo_config.md

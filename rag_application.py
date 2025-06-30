@@ -33,6 +33,27 @@ class DocumentRAGSystem:
         self.qa_chain = None
         self.setup_models()
 
+    # def setup_models(self):
+    #     """Setup the embedding model and LLM."""
+    #     try:
+    #         # Initialize HuggingFace embeddings (open source)
+    #         self.embeddings = HuggingFaceEmbeddings(
+    #             model_name="sentence-transformers/all-MiniLM-L6-v2",
+    #             model_kwargs={'device': 'cpu'}
+    #         )
+
+    #         # Initialize Ollama with Llama model (open source)
+    #         self.llm = Ollama(
+    #             model="llama3:8b",
+    #             temperature=0.1
+    #         )
+
+    #         logging.info("Models initialized successfully")
+
+    #     except Exception as e:
+    #         logging.error(f"Error initializing models: {e}")
+    #         st.error(f"Error initializing models: {e}")
+
     def setup_models(self):
         """Setup the embedding model and LLM."""
         try:
@@ -42,10 +63,12 @@ class DocumentRAGSystem:
                 model_kwargs={'device': 'cpu'}
             )
 
-            # Initialize Ollama with Llama model (open source)
+            # Use OLLAMA_HOST env variable if set, else default to http://localhost:11434
+            ollama_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
             self.llm = Ollama(
                 model="llama3:8b",
-                temperature=0.1
+                temperature=0.1,
+                base_url=ollama_host
             )
 
             logging.info("Models initialized successfully")
